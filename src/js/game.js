@@ -13,6 +13,8 @@ import { playSound, Key, choice, inView, lerp, callOnce } from './core/utils.js'
 import Splode from './splode.js';
 //stats = new Stats();
 //stats.showPanel( 0 ); // 0: fps, 1: ms, 2: mb, 3+: custom
+(function(){
+
 document.body.style="margin:0; background-color:black; overflow:hidden";
 if(innerWidth < 800){
   w = innerWidth;
@@ -237,4 +239,4 @@ function gameloop(){
   }
 }
 
-
+})();
